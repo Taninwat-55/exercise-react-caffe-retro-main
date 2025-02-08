@@ -1,0 +1,137 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* Fonts */
+/* Global styling */
+body {
+  font-family: 'Poiret One', sans-serif;
+}
+
+/* Navbar font */
+.navbar {
+  font-family: 'Spirax', sans-serif;
+}
+
+/* Hot Section font */
+.hot-section {
+  font-family: 'Poiret One', sans-serif;
+}
+
+/* Titel och menyer font */
+.title {
+  font-family: 'Spirax', sans-serif;
+}
+
+.menu-box {
+  font-family: 'Poiret One', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(30, 0, 20, 0.8);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 5rem;
+}
+
+.nav-link {
+  /* font-family: 'Spirax', sans-serif; */
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* General Section Styles */
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-family: "Spirax", sans-serif;
+  font-size: 4rem;
+  color: darkred;
+}
+
+.description-box {
+  background-color: darkred;
+  opacity: 0.95;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.5rem;
+}
+
+.menu-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem 3rem;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.menu-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-box li {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
