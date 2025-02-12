@@ -1,55 +1,8 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
-
 /* Fonts */
 /* Global styling */
 body {
   font-family: 'Poiret One', sans-serif;
-}
-
-/* Navbar font */
-.navbar {
-  font-family: 'Spirax', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Hot Section font */
@@ -57,17 +10,9 @@ body {
   font-family: 'Poiret One', sans-serif;
 }
 
-/* Titel och menyer font */
-.title {
-  font-family: 'Spirax', sans-serif;
-}
-
-.menu-box {
-  font-family: 'Poiret One', sans-serif;
-}
 
 /* Navbar */
-.navbar {
+/* .navbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -75,6 +20,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 1rem;
+  font-family: 'Spirax', sans-serif;
 }
 
 .links {
@@ -83,14 +29,13 @@ body {
 }
 
 .nav-link {
-  /* font-family: 'Spirax', sans-serif; */
   font-size: 2rem;
   color: white;
   cursor: pointer;
-}
+} */
 
 /* General Section Styles */
-.section {
+/* .section {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -134,4 +79,5 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
-}
+  font-family: 'Poiret One', sans-serif;
+} */

@@ -1,4 +1,4 @@
-// import { Link } from './Link';
+/* eslint-disable react/prop-types*/
 
 export default function Section({
   title,
@@ -16,8 +16,8 @@ export default function Section({
     >
       <h1 className="title">{title}</h1>
 
-      <div className="description-box">{description1}</div>
-      <div className="description-box">{description2}</div>
+      <div className="description-box box1">{description1}</div>
+      <div className="description-box box2">{description2}</div>
 
       {menuItems && (
         <div className="menu-box">

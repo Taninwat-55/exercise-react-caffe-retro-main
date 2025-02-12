@@ -1,0 +1,56 @@
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-family: 'Spirax', sans-serif;
+  font-size: 5rem;
+  color: darkred;
+}
+
+.description-box {
+  background-color: darkred;
+  opacity: 0.95;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  width: 700px;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 1.5rem;
+  /* position: relative; */
+}
+
+.description-box.box1 {
+  transform: translateX(-5%);
+}
+
+.description-box.box2 {
+  transform: translateX(5%);
+}
+
+.menu-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem 3rem;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.menu-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-box li {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: 'Poiret One', sans-serif;
+}
